@@ -31,9 +31,9 @@ payload = {
     'pageHistory' : '0',
     'fbzx' : '-882713142179927034'
 }
-num = 70  # number of executions
+num = 100  # 執行次數
 period = np.arange(0.5, 5.0, 0.1)
-delay = 0  # delay of execution
+delay = 0  # 延遲時間
 while num > 0:
     try:
         payload['entry.153422456'] = random.choice(params1)
